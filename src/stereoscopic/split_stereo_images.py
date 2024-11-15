@@ -18,7 +18,6 @@ def split_stereo_images():
         left_image = image.crop((0, 0, half_width, height))
         right_image = image.crop((half_width, 0, width, height))
 
-        # Save the left and right images
         base_name = os.path.splitext(stereo_image)[0]
         left_image.save(os.path.join(output_dir, f"{base_name}_left.jpg"))
         right_image.save(os.path.join(output_dir, f"{base_name}_right.jpg"))

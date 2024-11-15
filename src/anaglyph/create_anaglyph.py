@@ -12,7 +12,6 @@ def create_anaglyph(left_image, right_image, depth_label="medium"):
     Returns:
         PIL.Image: Anaglyph 3D image.
     """
-    # Separate channels
     left_r, _, _ = left_image.split()
     _, right_g, right_b = right_image.split()
 
@@ -21,11 +20,9 @@ def create_anaglyph(left_image, right_image, depth_label="medium"):
     return anaglyph
 
 if __name__ == "__main__":
-    # Input paths
     output_directory = "../../output"
     depth_levels = ["close", "medium", "far"]
 
-    # Generate anaglyphs for all depths
     for depth in depth_levels:
         left_image_path = f"{output_directory}/left_with_person_{depth}.png"
         right_image_path = f"{output_directory}/right_with_person_{depth}.png"
