@@ -49,4 +49,4 @@ def launch_app():
 
 # Run the app
 if __name__ == "__main__":
-    launch_app()
+    launch_app(share=True)
