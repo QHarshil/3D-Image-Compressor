@@ -118,12 +118,3 @@ An interactive application that segments a person from an image, inserts them in
 The resulting anaglyph images can be viewed with red-cyan 3D glasses to see the depth effect.
 
 ---
-
-## Future Enhancements
-
-- Support for multiple objects with independent depth adjustments.
-- Enhanced background blending for better integration.
-- Integration with other 3D visualization techniques (e.g., VR).
-- Real-time updates with WebSocket support.
-
----
