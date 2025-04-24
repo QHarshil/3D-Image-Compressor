@@ -115,8 +115,6 @@ An interactive application that segments a person from an image, inserts them in
   - `output/anaglyph_medium.png`
   - `output/anaglyph_far.png`
 
-### Example
-
 The resulting anaglyph images can be viewed with red-cyan 3D glasses to see the depth effect.
 
 ---
